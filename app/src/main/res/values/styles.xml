@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--dialog 中基类的三种动画方法-->
+    <style name="DialogVerticleWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+
+    <style name="DialogRightHorizontalWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_right_in</item>
+        <item name="android:windowExitAnimation">@anim/push_left_out</item>
+    </style>
+
+    <style name="DialogGrowWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_grow_in</item>
+        <item name="android:windowExitAnimation">@anim/push_grow_out</item>
+    </style>
+
+    <!-- dialog -->
+    <style name="dialogBgTranslation" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/translation</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <!--dialog 的基类配置-->
+    <style name="dialogCommon" parent="@android:style/Theme.Dialog">
+         没有标题栏
+        <item name="windowNoTitle">true</item>
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--除去title-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 对话框是否有遮盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 对话框出现时背景是否变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 对话框的背景变暗的程度，值越大，背景就越暗 -->
+        <item name="android:backgroundDimAmount">0.6</item>
+        <!-- 背景颜色，因为windowBackground中的背景已经写死了，所以这里的设置无效 -->
+        <item name="android:colorBackground">@color/background_floating_material_light</item>
+        <!--对话框背景(重要)  , default = abc_dialog_material_background-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否填充整个屏幕-->
+        <item name="android:windowFullscreen">false</item>
+        <!--//设置对话框的背景颜色是-->
+        <item name="android:background">@color/translation</item>
+    </style>
+
+
+
+</resources>
