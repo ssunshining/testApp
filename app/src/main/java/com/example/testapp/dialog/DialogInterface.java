@@ -5,7 +5,7 @@ import android.app.Dialog;
 /**
  * Author: zqz
  * Data: 2018/12/24 15:39
- * Description:
+ * Description:，dialog接口，可根据实际需求创建
  */
 public interface DialogInterface {
 

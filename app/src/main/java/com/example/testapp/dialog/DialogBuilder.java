@@ -9,7 +9,7 @@ import com.example.testapp.R;
 /**
  * Author: zqz
  * Data: 2018/12/24 16:06
- * Description:
+ * Description: dialogBuilder 对话框builder
  */
 public class DialogBuilder {
     private DialogParams params=new DialogParams();

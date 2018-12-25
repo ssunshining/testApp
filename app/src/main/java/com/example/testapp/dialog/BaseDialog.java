@@ -13,7 +13,7 @@ import com.example.testapp.R;
 /**
  * Author: zqz
  * Data: 2018/12/24 10:06
- * Description:
+ * Description:dialog父类  所有dialog继承
  */
 public class BaseDialog<T extends ViewDataBinding> extends Dialog {
 

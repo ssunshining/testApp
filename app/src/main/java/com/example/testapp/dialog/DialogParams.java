@@ -6,7 +6,7 @@ import android.view.Gravity;
 /**
  * Author: zqz
  * Data: 2018/12/24 15:08
- * Description:
+ * Description:设置dialog的属性
  */
 public class DialogParams {
     private int contetViewId;

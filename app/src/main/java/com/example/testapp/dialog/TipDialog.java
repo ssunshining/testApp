@@ -13,7 +13,7 @@ import com.example.testapp.databinding.DialogTipBinding;
 /**
  * Author: zqz
  * Data: 2018/12/24 09:43
- * Description:
+ * Description:通用信息dialog
  */
 public class TipDialog extends BaseDialog<DialogTipBinding> {
 
