@@ -19,7 +19,7 @@ public class TipDialog extends BaseDialog<DialogTipBinding> {
 
 
     private DialogInterface.onCLickCancleDialog cancleDialog;
-    private DialogInterface.onClickConfirmDialog confirmDialog; 
+    private DialogInterface.onClickConfirmDialog confirmDialog;
 
     protected TipDialog(Context context, int contentId, int gravity, int x, int y, DialogAnimation animationDirection,
                         boolean backCancelable, boolean outsideCancelable, boolean outsideClick, int height, int width,int style) {
